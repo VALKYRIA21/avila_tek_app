@@ -10,6 +10,6 @@ class DetailsMoviePage extends StatefulWidget {
 class _DetailsMoviePageState extends State<DetailsMoviePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container();
   }
 }

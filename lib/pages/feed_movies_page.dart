@@ -10,6 +10,22 @@ class FeedMoviesPage extends StatefulWidget {
 class _FeedMoviesPageState extends State<FeedMoviesPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container(
+      color: Colors.white,
+      child: const Padding(
+        padding: EdgeInsets.only(top: 65.5),
+        child: Column(
+          children: <Widget>[
+            Row(
+              children: <Widget>[
+                // Row 1
+
+                // Row 2
+              ],
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
