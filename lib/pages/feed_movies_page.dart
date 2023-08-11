@@ -1,3 +1,4 @@
+import 'package:avila_tek_app/providers/feed_movie_provider.dart';
 import 'package:flutter/material.dart';
 
 class FeedMoviesPage extends StatefulWidget {
@@ -8,6 +9,8 @@ class FeedMoviesPage extends StatefulWidget {
 }
 
 class _FeedMoviesPageState extends State<FeedMoviesPage> {
+  final feedMovieProvider = FeedMovieProvider();
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,10 +20,16 @@ class _FeedMoviesPageState extends State<FeedMoviesPage> {
         child: Column(
           children: <Widget>[
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                // Row 1
-
-                // Row 2
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [],
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [],
+                ),
               ],
             )
           ],
